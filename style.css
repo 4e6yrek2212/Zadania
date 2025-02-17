@@ -1,15 +1,51 @@
-h1 {
-    color: blueviolet; /* Change the color of the text to blueviolet */
-    font-size: 24px;   /* Change the font size to 24 pixels */
-    text-align: center; /* Center the text horizontally */
-}
-a {
-    text-decoration: none; /* Remove the underline from links */
-    color: white;
-}
 body {
-    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1267149286199986689/AE5A489F82BCFF56B0350D241468A2020D13A761/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true); /* Add a background image */; background-size: cover;
+    background-image: url(https://avatars.mds.yandex.net/i?id=1d0c1a49d752a614906c6603826ec2f0_l-5285345-images-thumbs&n=13); /* Фоновое изображение */
+    background-size: cover; /* Масштабировать изображение по размеру экрана */
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение */
+    align-items: center; /* Центрирование по горизонтали */
+    margin: 0; /* Убрать отступы */
 }
-p {
-    font-size: 46px; color: white; text-align: center; /* Center the text horizontally */ 
+
+.container {
+    margin-top: 200px; /* Отступ сверху для контейнера */
+}
+
+h1 {
+    background: linear-gradient(45deg, rgba(89, 5, 122, 0.959), rgba(135, 206, 235, 1)); /* Градиент от фиолетового к голубому */
+    -webkit-background-clip: text; /* Обрезка фона по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный цвет текста */
+    font-size: 48px; /* Размер шрифта заголовка (большой шрифт) */
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+    transition: background 0.5s, -webkit-background-position 0.5s; /* Плавный переход для фона */
+    background-size: 200% 200%; /* Увеличиваем размер фона для анимации */
+    background-position: 0% 50%; /* Начальная позиция фона */
+}
+
+h1:hover {
+    background-position: 100% 50%; /* Конечная позиция фона при наведении */
+}
+
+a {
+    text-decoration: none; /* Убрать подчеркивание у ссылок */
+    color: #87CEEB; /* Голубой цвет для ссылок */
+    font-size: 24px; /* Размер шрифта для ссылок */
+    display: block; /* Ссылки будут на новой строке */
+    margin: 10px 0; /* Отступы между ссылками */
+    transition: color 0.3s; /* Переход для цвета */
+}
+
+a:hover {
+    color: white; /* Белый цвет текста при наведении */
+}
+
+.centered-list {
+    list-style-type: none; /* Убрать маркеры списка */
+    padding: 0; /* Убрать отступы */
+}
+
+.centered-list li {
+    color: white; /* Цвет текста списка */
+    font-size: 24px; /* Размер шрифта для списка */
+    margin: 10px 0; /* Отступы между элементами списка */
 }

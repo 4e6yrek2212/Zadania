@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1267149286199986689/AE5A489F82BCFF56B0350D241468A2020D13A761/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true); background-size: cover;
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 115px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.menu-button {
+    background-image: url(1.jpg); background-size: cover; /* Голубой цвет */
+    border: none;
+    color: #ffffff; /* Цвет текста по умолчанию */
+    font-size: 43px;
+    padding: 15px 30px;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 1px;
+    transition: background-color 0.3s, color 0.3s; /* Добавляем переход для цвета текста */
+}
+
+.menu-button:hover {
+    background-color: #6b8adf; /* Светло-голубой при наведении */
+    color: #dddb4a; /* Желтый цвет текста при наведении */
+}
