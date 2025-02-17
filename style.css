@@ -1,0 +1,15 @@
+h1 {
+    color: blueviolet; /* Change the color of the text to blueviolet */
+    font-size: 24px;   /* Change the font size to 24 pixels */
+    text-align: center; /* Center the text horizontally */
+}
+a {
+    text-decoration: none; /* Remove the underline from links */
+    color: white;
+}
+body {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1267149286199986689/AE5A489F82BCFF56B0350D241468A2020D13A761/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true); /* Add a background image */; background-size: cover;
+}
+p {
+    font-size: 46px; color: white; text-align: center; /* Center the text horizontally */ 
+}
