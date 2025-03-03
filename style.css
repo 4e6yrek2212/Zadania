@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap:wght@400;500;700;800&display=swap');
+
+
 body {
     background-image: url(https://avatars.mds.yandex.net/i?id=1d0c1a49d752a614906c6603826ec2f0_l-5285345-images-thumbs&n=13); /* Фоновое изображение */
     background-size: cover; /* Масштабировать изображение по размеру экрана */
     display: flex;
     flex-direction: column; /* Вертикальное расположение */
     align-items: center; /* Центрирование по горизонтали */
+    font-family: "Shafarik";
     margin: 0; /* Убрать отступы */
 }
 
@@ -48,4 +52,80 @@ a:hover {
     color: white; /* Цвет текста списка */
     font-size: 24px; /* Размер шрифта для списка */
     margin: 10px 0; /* Отступы между элементами списка */
+}
+
+.fifth {
+   overflow: auto;
+        width: 17vw;
+        height: 39vh;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        background-color: pink;
+}
+
+.six {
+    width: 20vw;
+    height: 42vh;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.seven {
+    width: 21vw;
+    height: 41vh;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: greenyellow;
+}
+
+.eight {
+    width: 21vw;
+    height: 48vh;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.nine {
+    width: 21vw;
+    height: 55vh;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: rgb(238, 240, 146);
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    .display {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
