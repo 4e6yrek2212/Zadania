@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap:wght@400;500;700;800&display=swap');
+
+
+body {
+    background-image: url(https://spb.crystile.ru/upload/iblock/9ac/9ace8319e54fa3d6c0cb74d2dffa6897.jpg); /* Фоновое изображение */
+    background-size: cover; /* Масштабировать изображение по размеру экрана */
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение */
+    align-items: center; /* Центрирование по горизонтали */
+    font-family: "Shafarik";
+    margin: 0; /* Убрать отступы */
+}
+
+.container {
+    margin-top: 200px; /* Отступ сверху для контейнера */
+}
+
+a {
+    text-decoration: none; /* Убрать подчеркивание у ссылок */
+    color: #87CEEB; /* Голубой цвет для ссылок */
+    transition: color 0.3s; /* Переход для цвета */
+}
+
+a:hover {
+    color: rgb(155, 144, 144); /* Белый цвет текста при наведении */
+}
+
+.centered-list {
+    list-style-type: none; /* Убрать маркеры списка */
+    padding: 0; /* Убрать отступы */
+}
+
+.centered-list li {
+    color: white; /* Цвет текста списка */
+    font-size: 24px; /* Размер шрифта для списка */
+    margin: 10px 0; /* Отступы между элементами списка */
+}
+
+.custom-background {
+    background-color: yellow; /* Цвет фона для элемента с классом custom-background */
+    padding: 20px; /* Добавим немного отступа для красоты */
+}
+
+.custom--background {
+    background-color: rgb(6, 134, 185); /* Цвет фона для элемента с классом custom-background */
+    padding: 20px; /* Добавим немного отступа для красоты */
+}
+
+.fifth {
+    background-color: rgb(74, 218, 60); /* Цвет фона для элемента с классом custom-background */
+    padding: 20px; /* Добавим немного отступа для красоты */
+}
+
+.fifths {
+    background-color: rgb(226, 166, 55); /* Цвет фона для элемента с классом custom-background */
+    padding: 20px; /* Добавим немного отступа для красоты */
+}
+
+.seven {
+    background-color: rgba(255, 255, 255, 0); /* Цвет фона для элемента с классом custom-background */
+    padding: 20px; /* Добавим немного отступа для красоты */ 
+}
+
+.eight {
+    background-color: rgb(184, 176, 176); /* Цвет фона для элемента с классом custom-background */
+    padding: 20px; /* Добавим немного отступа для красоты */
+}

@@ -1,0 +1,61 @@
+.mix {
+    text-align: justify; 
+    text-align: center; 
+    width: 20%;
+    margin:  auto;
+      }
+
+      .b {
+        font-weight: bold; /* Жирный шрифт */
+      }
+    
+      .sm {
+        font-size: 15px;
+      }
+    
+      .sm2 {
+        font-size: 17px;
+      }
+    
+      .sm3 {
+        font-size: 19px;
+      }
+    
+      .sm4 {
+        font-size: 21px; 
+      }
+    
+      .sl {
+        font-size: 23px; 
+      }
+      .right {
+        text-align: right
+      }
+      .cent {
+        text-align: center;
+      }
+    
+      .bl {
+        color: blue;
+      }
+      .rd {
+        color: red;
+      }
+      .gr {
+        color: green;
+      }
+      .or {
+        color: orange;
+      }
+      .br {
+        color: brown;
+      }
+      .cy {
+        color: cyan;
+      }
+      .purp {
+        color: purple;
+      }
+      .yl {
+        color: yellow;
+      }
