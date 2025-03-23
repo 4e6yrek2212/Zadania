@@ -8,6 +8,19 @@ body {
     margin: 0; /* Убрать отступы */
 }
 
+a:hover {
+    color: white; /* Белый цвет текста при наведении */
+}
+
+a {
+    text-decoration: none; /* Убрать подчеркивание у ссылок */
+    color: #87CEEB; /* Голубой цвет для ссылок */
+    font-size: 24px; /* Размер шрифта для ссылок */
+    display: block; /* Ссылки будут на новой строке */
+    margin: 10px 0; /* Отступы между ссылками */
+    transition: color 0.3s; /* Переход для цвета */
+}
+
 .g
 {
 position: absolute;
