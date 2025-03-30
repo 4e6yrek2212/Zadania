@@ -1,0 +1,164 @@
+
+.pp{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Стили для заголовка */
+.css-header {
+    font-size: 50px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: purple;
+    text-align: center;
+    text-shadow: 2px -3px 0px rgba(0, 0, 0, 0.377);
+}
+
+.css-container {
+    margin-left: 42%;
+    background-color: plum;
+    align-content: center;
+    width: 320px;
+}
+
+/* Стили для подзаголовка */
+.css-subheader {
+    font-family: 'Arial';
+    font-size: 24px;
+    color: #666;
+    margin-top: 0;
+    text-align: center;
+    color: mediumorchid;
+}
+
+.six{
+    margin-left: 35%;
+background-color: aqua;
+width: 600px;
+height: 400px;
+}
+
+.ah1 {
+    font-size: 40px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(189, 12, 12);
+}
+
+.ah2 {
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+
+.span {
+    font-size: 40px;
+    font-weight: initial;
+    color: green;
+}
+
+.sem{
+    font-family: 'Monotype Corsiva', cursive;
+font-size: 14px;
+}
+
+.h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+.img{
+    width: 400px;
+    height: 200px;
+    border: 10px solid blue;
+}
+
+/* Стиль для всей таблицы */
+.table {
+    border: 10px solid blue;
+    border-collapse: collapse; /* Убираем двойные границы */
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Стиль для шапки таблицы */
+.th {
+    background-color: yellow; /* Желтая заливка */
+    color: red; /* Красный текст */
+    border: 3px dashed red; /* Красная пунктирная рамка */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Стиль для ячеек таблицы */
+.td {
+    background-color: green; /* Зеленая заливка */
+    border: 2px solid yellow; /* Желтая сплошная рамка */
+    padding: 8px;
+    text-align: left;
+}
+
+.nin{
+margin-left: 30%;
+background-color: rgba(230, 41, 189, 0.733);
+width: 750px;
+height: 500px;
+
+
+}
+
+.nin1{
+    font-size: 40px;
+    color: rgb(189, 25, 25);
+    text-align: center;
+}
+
+.nin2{
+    font-family: 'arial';
+text-align: center;
+color: blue;
+font-size: 25px;
+}
+
+.nin3{
+height: 100px;
+width: 100px;
+border-top: 10px dotted yellow;
+border-right: 10px dotted blue;
+border-left: 10px dotted blue;
+border-bottom: 10px dotted red;
+margin-left: 310px;
+}
+
+a {
+    text-decoration: none; /* Убрать подчеркивание у ссылок */
+    color: #87CEEB; /* Голубой цвет для ссылок */
+    font-size: 24px; /* Размер шрифта для ссылок */
+    display: block; /* Ссылки будут на новой строке */
+    margin: 10px 0; /* Отступы между ссылками */
+    transition: color 0.3s; /* Переход для цвета */
+}
+
+a:hover {
+    color: white; /* Белый цвет текста при наведении */
+}
+
+.tbody td{
+    background-color: rgb(255, 166, 0);
+border: 2px solid rgb(187, 34, 34);
+}
+.thead th{
+border: 2px dashed rgb(173, 28, 28);
+background-color: rgb(255, 166, 0);
+}
+.tb{
+    margin-left: 250px;
+border: 8px double rgb(187, 34, 34);
+}
