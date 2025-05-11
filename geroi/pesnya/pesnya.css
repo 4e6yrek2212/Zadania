@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #D2691E;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-top: 5px solid #c00;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+
+
+/* Стили аудиоплеера */
+.audio-player {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.song-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.song-title {
+    font-size: 22px;
+    color: #c00;
+    margin-bottom: 5px;
+}
+
+.song-desc {
+    font-style: italic;
+    color: #666;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+/* Стили текста песни */
+.lyrics {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #c00;
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+.back-button {
+    display: block;
+    width: 200px;
+    margin: 30px auto 0;
+    padding: 12px;
+    background-color: #FF7F50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.back-button:hover {
+    background-color: #D2691E;
+    transform: translateY(-3px);
+}
+
+footer { background-color: #6495ED;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
