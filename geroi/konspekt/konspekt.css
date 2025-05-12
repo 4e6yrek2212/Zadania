@@ -1,0 +1,38 @@
+.back-button {
+    display: inline-block;
+    background-color: #FF7F50;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.back-button:hover {
+    background-color: #D2691E;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn-3d-2 {
+            background: #FF7F50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 5px 0 #D2691E;
+            transition: all 0.2s;
+        }
+        
+        .btn-3d-2:hover {
+            box-shadow: 0 7px 0 #D2691E;
+            transform: translateY(-2px);
+        }
+        
+        .btn-3d-2:active {
+            box-shadow: 0 2px 0 #D2691E;
+            transform: translateY(5px);
+        }
